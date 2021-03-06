@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		92838BFE25F1EFAC0083A69A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92838BFD25F1EFAC0083A69A /* AppDelegate.swift */; };
 		92838C0025F1EFAC0083A69A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92838BFF25F1EFAC0083A69A /* SceneDelegate.swift */; };
-		92838C0225F1EFAC0083A69A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92838C0125F1EFAC0083A69A /* ViewController.swift */; };
+		92838C0225F1EFAC0083A69A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92838C0125F1EFAC0083A69A /* MainViewController.swift */; };
 		92838C0525F1EFAC0083A69A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92838C0325F1EFAC0083A69A /* Main.storyboard */; };
 		92838C0725F1EFBE0083A69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92838C0625F1EFBE0083A69A /* Assets.xcassets */; };
 		92838C0A25F1EFBE0083A69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92838C0825F1EFBE0083A69A /* LaunchScreen.storyboard */; };
+		92838C1425F1F5260083A69A /* StocksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92838C1325F1F5260083A69A /* StocksListViewController.swift */; };
+		92838C1725F1F9450083A69A /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92838C1625F1F9450083A69A /* APIKeys.swift */; };
+		92838C1A25F1FBA10083A69A /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92838C1925F1FBA10083A69A /* StockTableViewCell.swift */; };
+		92838C1D25F2D4FC0083A69A /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92838C1C25F2D4FC0083A69A /* Stock.swift */; };
+		92838C2125F2D6E90083A69A /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92838C2025F2D6E90083A69A /* Stocks.swift */; };
+		92838C2625F2ED5E0083A69A /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92838C2525F2ED5D0083A69A /* StockDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		92838BFA25F1EFAC0083A69A /* MyStocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92838BFD25F1EFAC0083A69A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92838BFF25F1EFAC0083A69A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92838C0125F1EFAC0083A69A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92838C0125F1EFAC0083A69A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		92838C0425F1EFAC0083A69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92838C0625F1EFBE0083A69A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92838C0925F1EFBE0083A69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92838C0B25F1EFBE0083A69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92838C1325F1F5260083A69A /* StocksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksListViewController.swift; sourceTree = "<group>"; };
+		92838C1625F1F9450083A69A /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		92838C1925F1FBA10083A69A /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		92838C1C25F2D4FC0083A69A /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		92838C2025F2D6E90083A69A /* Stocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks.swift; sourceTree = "<group>"; };
+		92838C2525F2ED5D0083A69A /* StockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,13 @@
 			children = (
 				92838BFD25F1EFAC0083A69A /* AppDelegate.swift */,
 				92838BFF25F1EFAC0083A69A /* SceneDelegate.swift */,
-				92838C0125F1EFAC0083A69A /* ViewController.swift */,
+				92838C1625F1F9450083A69A /* APIKeys.swift */,
+				92838C1C25F2D4FC0083A69A /* Stock.swift */,
+				92838C2025F2D6E90083A69A /* Stocks.swift */,
+				92838C0125F1EFAC0083A69A /* MainViewController.swift */,
+				92838C1325F1F5260083A69A /* StocksListViewController.swift */,
+				92838C2525F2ED5D0083A69A /* StockDetailViewController.swift */,
+				92838C1925F1FBA10083A69A /* StockTableViewCell.swift */,
 				92838C0325F1EFAC0083A69A /* Main.storyboard */,
 				92838C0625F1EFBE0083A69A /* Assets.xcassets */,
 				92838C0825F1EFBE0083A69A /* LaunchScreen.storyboard */,
@@ -137,9 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92838C0225F1EFAC0083A69A /* ViewController.swift in Sources */,
+				92838C0225F1EFAC0083A69A /* MainViewController.swift in Sources */,
+				92838C1725F1F9450083A69A /* APIKeys.swift in Sources */,
+				92838C2125F2D6E90083A69A /* Stocks.swift in Sources */,
+				92838C2625F2ED5E0083A69A /* StockDetailViewController.swift in Sources */,
 				92838BFE25F1EFAC0083A69A /* AppDelegate.swift in Sources */,
 				92838C0025F1EFAC0083A69A /* SceneDelegate.swift in Sources */,
+				92838C1A25F1FBA10083A69A /* StockTableViewCell.swift in Sources */,
+				92838C1425F1F5260083A69A /* StocksListViewController.swift in Sources */,
+				92838C1D25F2D4FC0083A69A /* Stock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
