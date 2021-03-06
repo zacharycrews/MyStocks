@@ -7,5 +7,5 @@
 
 import Foundation
 struct APIKeys {
-    let alphaVantageKey = "1CPWUBHSTJ0EWI2G"
+    let alphaVantageKey = ""
 }
